@@ -40,11 +40,11 @@ The Temperature sensor and LED were wired to the Arduino using a temporary bread
 
 The OLED display was wired according to the datasheet, with SCL and SDA going to pins A5 and A4 respectively while 3.3V of power was fed from the Arduino. 
 
-![image1](https://github.com/joedvorak/BAE305Example/blob/master/Design%20File%20Images/SensorandLED6.jpg)
+![image1](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/SensorandLED6.jpg)
 
 Now that the temperature probe and LED are all communicating with the Arduino, the pushbuttons and code to allow the selection of desired temperature are added.
 
-![image2](https://github.com/joedvorak/BAE305Example/blob/master/Design%20File%20Images/ButtonsToo.jpg)
+![image2](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/ButtonsToo.jpg)
 
 The last electrical component controlled by the Arduino is added, the 10A relay. The relay allows the Arduino to use the information from the temperature sensor to turn on or off the other electrical assembly, the combination of the water pump, fans, and peltier chips.
 
