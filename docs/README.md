@@ -48,20 +48,20 @@ Now that the temperature probe and LED are all communicating with the Arduino, t
 
 The last electrical component controlled by the Arduino is added, the 10A relay. The relay allows the Arduino to use the information from the temperature sensor to turn on or off the other electrical assembly, the combination of the water pump, fans, and peltier chips.
 
-![image3](https://github.com/joedvorak/BAE305Example/blob/master/Design%20File%20Images/RelayAlso.jpg)
+![image3](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/RelayAlso.jpg)
 
 The fan and heat sink are attached to the hot side of the Peltier chips with thermal paste and super glue. The water cooler is attached to the cold side of the Peltier chip with thermal paste and super glue. The entire assembly is then glued to the bottom of the container and ventilation holes are cut in the side of the tub. Process repeated for other water cooler assembly.
 
-![image4](https://github.com/joedvorak/BAE305Example/blob/master/Design%20File%20Images/peltierheatsinkassembly.jpg)
+![image4](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/peltierheatsinkassembly.jpg)
 
 The 30A, 12V power supply is connected to the project first through a switch and then on to the Arduino directly for external power, and to the Peltier/Fan/Water pump assemblies by way of the relay.
 
-![image5](https://github.com/joedvorak/BAE305Example/blob/master/Design%20File%20Images/tundra3000.jpg)
+![image5](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/tundra3000.jpg)
 
 ## Schematics
 Red wire= positive, Green wire= negative, Blue wire= analog/digital outputs
 
-![schematic](https://github.com/joedvorak/BAE305Example/blob/master/Design%20File%20Images/Tundra%203000_schem.gif)
+![schematic](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/Tundra%203000_schem.gif)
 
 ## Engineering Drawings
 Not Provided.
@@ -101,7 +101,7 @@ Not Provided.
 # Test Results
 No text provided
 
-![Results_graph](https://github.com/joedvorak/BAE305Example/blob/master/Design%20File%20Images/Graph.png)
+![Results_graph](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/Graph.png)
 
 # Discussion
 ## Design Decisions
