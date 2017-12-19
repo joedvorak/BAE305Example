@@ -24,6 +24,7 @@ The purpose of the Peltier Live Well cooler was to allow for the control of the 
 * Large Plastic Container
 * Super Glue
 * Thermal Paste
+
 ## Tools and Supplies
 * 30 Amp, 12V Power Supply
 * Solder
@@ -31,12 +32,13 @@ The purpose of the Peltier Live Well cooler was to allow for the control of the 
 * Box Knife
 * Wire Strippers
 * Small Flathead Screwdriver
+
 # Assembly Procedures
 The theory behind initial assembly was to get each electrical component working and communicating with the Arduino before adding the next.
 
 The Temperature sensor and LED were wired to the Arduino using a temporary breadboard. A 4.7KOhm resistor was added between the white data line and red power line of the waterproof temperature probe.
 
-The OLED display was wired according to the datasheet, with SCL and SDA going to pins A5 and A4 respectively while 3.3V of power was fed from the Arduino.
+The OLED display was wired according to the datasheet, with SCL and SDA going to pins A5 and A4 respectively while 3.3V of power was fed from the Arduino. 
 
 ![](https://github.com/joedvorak/BAE305Example/blob/master/Design%20File%20Images/SensorandLED6.jpg)
 
