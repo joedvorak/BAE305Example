@@ -1,13 +1,19 @@
 # Tundra 3000
+
 Built by: Students in BAE 305 in Spring 2017
+
 # Summary
+
 The purpose of the Peltier Live Well cooler was to allow for the control of the temperature of a live well while fishing on a lake. Without the ability to control the temperature of the live well, particularly on hot summer days, captured fish risk overheating as the temperature of the water in the live well climbs much higher than the deeper lake water they were caught from. With the Peltier Live Well cooler, the water temperature in the live well is able to be controlled without the need for heavy or expensive traditional compressors and refrigerant. This system could be useful in other applications as well, such as maintaining the temperature of water samples taken from the field.
 
 # Video
+
 [Click to go to YouTube](https://www.youtube.com/watch?v=GQ1tgDadTyY)
 
 # Materials
+
 ## Materials
+
 * Arduino Uno
 * 2x Peltier Chips
 * Waterproof Temperature Probe
@@ -25,6 +31,7 @@ The purpose of the Peltier Live Well cooler was to allow for the control of the 
 * Thermal Paste
 
 ## Tools and Supplies
+
 * 30 Amp, 12V Power Supply
 * Solder
 * Soldering Iron
@@ -33,6 +40,7 @@ The purpose of the Peltier Live Well cooler was to allow for the control of the 
 * Small Flathead Screwdriver
 
 # Assembly Procedures
+
 The theory behind initial assembly was to get each electrical component working and communicating with the Arduino before adding the next.
 
 The Temperature sensor and LED were wired to the Arduino using a temporary breadboard. A 4.7KOhm resistor was added between the white data line and red power line of the waterproof temperature probe.
@@ -66,7 +74,8 @@ Red wire= positive, Green wire= negative, Blue wire= analog/digital outputs
 Not Provided.
 ## Programming Code
 See this repository for the Arduino Code.
-This code reads the temperature sensor on the OneWire interface and converts it to Fahrenheit and Celsius
+
+The code section below reads the temperature sensor on the OneWire interface and converts it to Fahrenheit and Celsius:
 ```C
 for ( i = 0; i < 9; i++) {           // we need 9 bytes
     data[i] = ds.read();
@@ -93,22 +102,35 @@ for ( i = 0; i < 9; i++) {           // we need 9 bytes
   celsius = (float)raw / 16.0;
   fahrenheit = celsius * 1.8 + 32.0;
 ```
+
 # Test Equipment
+
 Not Provided.
+
 # Test Procedures
+
 Not Provided.
+
 # Test Results
+
 No text provided
 
-![Results_graph](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/Graph.png)
+![Results_graph](Graph.png)
 
 # Discussion
+
 ## Design Decisions
+
 Not Provided
+
 ## Test Results Discussion
-The Peltier Live Well Cooler allows the user to select the desired maintenance temperature of the water in the live well using 2 pushbuttons and will then automatically cycle the system on and off while giving the user a real time readout of the current live well water temperature
+
+The Peltier Live Well Cooler allows the user to select the desired maintenance temperature of the water in the live well using 2 pushbuttons and will then automatically cycle the system on and off while giving the user a real time readout of the current live well water temperature.
+
 # References
+
 The OLED was connected with help from this instructable: http://www.instructables.com/id/Monochrome-096-i2c-OLED-display-with-arduino-SSD13/
 
 After finding the correct i2c address for the display using the i2c scanner, an example sketch from the Adafruit SSD1306 library was uploaded to the Arduino. After verification that the OLED was working, code from the example sketch was reworked into the code needed to display our data. 
+
 Similarly, code to run the temperature probe was borrowed from the OneWire library example sketch and modified to meet the needs of the project.
