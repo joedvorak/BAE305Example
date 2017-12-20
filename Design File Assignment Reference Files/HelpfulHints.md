@@ -28,6 +28,7 @@ myNumber++;
 `
 
 The above code was written on separate lines but was combined in the output.
+
 Basic code notation using the triple \' (\'''): 
 
 ```
@@ -79,17 +80,7 @@ int myNumber = 3;
 Serial.begin(9600);
 myNumber++;
 }
-\```
 ```
-
-`Markdown
-```C
-void setup(){
-int myNumber = 3;
-Serial.begin(9600);
-myNumber++;
-}
 ```
-`
 
 More about highlighting code is [here](https://help.github.com/articles/creating-and-highlighting-code-blocks/). You might need to look it up if you decide to use something other than Arduino for your project. 
