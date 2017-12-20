@@ -1,5 +1,5 @@
 # Helpful Hints for creating your GitHub Pages Design File
-* Keep all files used in your design file in a single folder called ""/docs"
+* Keep all files such as images used in your design file in a single folder called ""/docs"
 * Create a file named "README.md" in the "/docs" folder
 * Edit the README.md file with GitHub's editor. You can preview the final document by clicking on the tab at the top.
 * Make sure to save your online edits by clicking commit at the bottom.
@@ -12,6 +12,8 @@
 * You will likely need a space before hitting enter at the end of a line. This helps the interpreter recognize different paragraphs.
 * If you see sections that run onto each other. Try a space before the enter. If that doesn't work, try adding an extra blank line (hit enter again). That helps separate sections.
 * Markdown elimnates extra blank lines between paragraphs so don't worry about having too many.
+* Insert images using \!\[*image alt text*](*filename*). 
+* Download this file or the README.md in this project's /docs directory to see an example of formatting.
 
 # Formatting Code
 
@@ -29,7 +31,7 @@ myNumber++;
 
 The above code was written on separate lines but was combined in the output.
 
-Basic code notation using the triple \' (\'''): 
+Basic code notation using the triple \` (\```): 
 
 ```
 void setup(){
@@ -80,7 +82,9 @@ int myNumber = 3;
 Serial.begin(9600);
 myNumber++;
 }
+\```
 ```
-```
+
+Don't put a slash at the start of the triple \` at the end. It is only here to make sure the \``` prints on the screen.
 
 More about highlighting code is [here](https://help.github.com/articles/creating-and-highlighting-code-blocks/). You might need to look it up if you decide to use something other than Arduino for your project. 
