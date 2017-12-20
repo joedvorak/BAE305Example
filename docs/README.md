@@ -37,17 +37,17 @@ The theory behind initial assembly was to get each electrical component working 
 
 The Temperature sensor and LED were wired to the Arduino using a temporary breadboard. A 4.7KOhm resistor was added between the white data line and red power line of the waterproof temperature probe.
 
-The OLED display was wired according to the datasheet, with SCL and SDA going to pins A5 and A4 respectively while 3.3V of power was fed from the Arduino. 
+The OLED display was wired according to the datasheet, with SCL and SDA going to pins A5 and A4 respectively while 3.3V of power was fed from the Arduino.
 
-![image1](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/SensorandLED6.jpg)
+![image1](SensorandLED6.jpg)
 
 Now that the temperature probe and LED are all communicating with the Arduino, the pushbuttons and code to allow the selection of desired temperature are added.
 
-![image2](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/ButtonsToo.jpg)
+![image2](ButtonsToo.jpg)
 
 The last electrical component controlled by the Arduino is added, the 10A relay. The relay allows the Arduino to use the information from the temperature sensor to turn on or off the other electrical assembly, the combination of the water pump, fans, and peltier chips.
 
-![image3](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/RelayAlso.jpg)
+![image3](https://github.com/joedvorak/BAE305Example/blob/master/docs/RelayAlso.jpg)
 
 The fan and heat sink are attached to the hot side of the Peltier chips with thermal paste and super glue. The water cooler is attached to the cold side of the Peltier chip with thermal paste and super glue. The entire assembly is then glued to the bottom of the container and ventilation holes are cut in the side of the tub. Process repeated for other water cooler assembly.
 
@@ -60,7 +60,7 @@ The 30A, 12V power supply is connected to the project first through a switch and
 ## Schematics
 Red wire= positive, Green wire= negative, Blue wire= analog/digital outputs
 
-![schematic](https://github.com/joedvorak/BAE305Example/blob/master/DesignFileImages/Tundra%203000_schem.gif)
+![schematic](Tundra%203000_schem.gif)
 
 ## Engineering Drawings
 Not Provided.
