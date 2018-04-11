@@ -2,6 +2,7 @@
 
 ## Creating a new project
 1. In GitHub: Login, Click on your name. Click on repositories. Click on the green button that says New.
+![Clicking on new Repository](GitHub%20New%20Repository.png)
 2. Open GitHub Desktop. Click File->Clone Repository...
 3. Select your new project from the list.
 4. Congratulations! You now have a GitHub project. If you click on Repository in the menu bar, you can select Options to Open in Atom or Open in Finder/File Manger.
