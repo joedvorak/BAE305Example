@@ -4,8 +4,11 @@
 1. In GitHub: Login, Click on your name. Click on repositories. Click on the green button that says New.
 ![Clicking on new Repository](GitHub%20New%20Repository.png)
 2. Open GitHub Desktop. Click File->Clone Repository...
+![Menu for Clone Repository](Selecting%20Clone%20in%20GitHub%20Desktop.png)
 3. Select your new project from the list.
+![Selecting Project to Clone](GitHub%20New%20Repository.png)
 4. Congratulations! You now have a GitHub project. If you click on Repository in the menu bar, you can select Options to Open in Atom or Open in Finder/File Manger.
+![Options for local editing](Options%20to%20edit%20locally%20from%20GitHub%20Desktop.png)
 
 
 1. Create the /docs folder in your project
